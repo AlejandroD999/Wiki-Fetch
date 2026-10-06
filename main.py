@@ -17,7 +17,7 @@ def main():
         return
 
     for article in data:
-        print(article['title'], article['score'])
+        print(article['title'])
 
 
 

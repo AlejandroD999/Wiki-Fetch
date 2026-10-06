@@ -2,8 +2,8 @@ import argparse
 
 def setup_parser():
     parser = argparse.ArgumentParser(
-            prog="Sh-engine",
-            description="Sh-engine is a wikipedia search engine built as a MVP of an internet search engine",
+            prog="wiki-fetch",
+            description="Wiki-fetch is a wikipedia search engine that fetches article titles from wikipedia",
             epilog="Thank you for supporting this project")
 
     parser.add_argument("topic", action="store")
